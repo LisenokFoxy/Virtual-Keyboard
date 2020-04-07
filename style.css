@@ -1,0 +1,58 @@
+
+html {
+    background: linear-gradient(to left, #E4AF9D 1%, #E4E4D8 30%, rgb(148, 123, 115) 90%);
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(141, 89, 89, 0.658);
+}
+.container {
+    position: relative;
+    left:25%;
+    top: 150px;
+	width: 1200px;
+}
+
+
+.output {
+    width: 875px;
+    padding: 30px;
+    border-radius: 5px;
+    background: rgb(247, 203, 190);
+    
+}
+
+
+#keyboard::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.key {
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgba(65, 47, 47, 0.74);
+    background-color: rgb(196, 164, 154);
+    border-radius: 7px;
+    
+   
+    margin: 3px;
+    padding: 3px;
+    float: left;
+}
+
+.clearfix {
+  
+    
+    clear: both;
+}
+
+.active {
+    background: rgb(211, 111, 111);
+    box-shadow: 0 0 15px rgb(15, 11, 11);
+    transition: all 0.5s;
+}
